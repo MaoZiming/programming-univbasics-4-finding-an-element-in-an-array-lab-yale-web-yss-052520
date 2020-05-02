@@ -3,8 +3,8 @@ def find_element_index(array, value_to_find)
   result = nil
   len = array.size
   i = 0
-  size.times do
-    if array[i] == value_to_find 
+  len.times do
+    if array[i] == value_to_find
       result = i
       break
     end
